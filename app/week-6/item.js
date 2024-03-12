@@ -1,7 +1,7 @@
 const Item = ({ name, quantity, category }) => {
   return (
-   <ul className="bg-gray-400 p-4 w-1/3 mt-6 mx-4 rounded-xl">
-    <li className="font-bold text-xl">
+   <ul className='border border-2 p-2 m-4 bg-yellow-200 text-black'>
+    <li className='text-4xl font-bold'>
       Name: {name}
     </li>
     <li>
