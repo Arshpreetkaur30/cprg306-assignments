@@ -16,7 +16,7 @@ export default function Page() {
 
   return (
     <main >
-      <h1 className='font-bold text-4xl p-2'>Shopping list</h1>
+      <h1 className="text-4xl font-semibold mb-6 border-b-2 border-gray-500">Shopping list</h1>
       <NewItem addItem={handleAddItem} />
       <ItemList items={items}/>
     </main>
